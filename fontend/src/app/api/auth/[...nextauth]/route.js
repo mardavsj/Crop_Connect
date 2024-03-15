@@ -6,11 +6,6 @@ const scopes = ['identify'].join(' ')
 
 const handler = NextAuth({
     providers:[
-        DiscordProvider({
-            clientId: process.env.DISCORD_CLIENT_ID,
-            clientSecret: process.env.DISCORD_CLIENT_SECRET,
-            authorization: {params: {scope: scopes}},
-          }),
         GoogleProvider({
             clientId:process.env.GOOGLE_CLIENT_ID,
             clientSecret:process.env.GOOGLE_CLIENT_SECRET,
