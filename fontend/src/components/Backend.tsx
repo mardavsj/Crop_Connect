@@ -12,7 +12,7 @@ const Backend = () => {
 
     const fetchData =async()=>{
         try{
-            const response = await  fetch('http://localhost:5000/api/data');
+            const response = await  fetch('http://localhost:8080/api/data');
             const jsonData = await response.json();
             setData(jsonData)
         }
