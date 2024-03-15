@@ -1,6 +1,7 @@
 import Backend from "@/components/Backend";
 import Herosection from "@/components/Herosection";
 import Navbar from "@/components/Navbar";
+import Navigation from "@/components/Navigation";
 import Team from "@/components/Team";
 import TopNav from "@/components/TopNav";
 import Image from "next/image";
@@ -8,7 +9,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between p-22">
+      <Navigation/>
       <Backend/>
       <TopNav/>
     <Navbar/>
