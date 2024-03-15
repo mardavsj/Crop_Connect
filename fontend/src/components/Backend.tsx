@@ -25,7 +25,7 @@ const Backend = () => {
   return (
     <>
     <div>Backend</div>
-    {/* <div>div> */}
+    <div>{data.message}</div>
     </>
   )
 }
