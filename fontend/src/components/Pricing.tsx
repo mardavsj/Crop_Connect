@@ -41,7 +41,7 @@ const PricingComponent = () => {
             </div>
             <div className="px-6 py-4">
               <div className="font-bold text-6xl text-black mb-2">{plan.title}</div>
-              <p className="text-base text-black ">${plan.price}/month</p>
+              <p className="text-base text-black ">{plan.price}RS/month</p>
               <ul className="mt-4">
                 {plan.features.map((feature, index) => (
                   <li key={index} className="flex items-center">
