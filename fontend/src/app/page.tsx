@@ -11,8 +11,8 @@ export default function Home() {
     <>
     <main className="flex min-h-screen flex-col items-center justify-between p-22">
       <Navigation/>
-      <Backend/>
       <TopNav/>
+      <Backend/>
     <Navbar/>
      {/* <h1 className="text-5xl text-primary-hackathon-color-500 font-bold">Team Elites</h1> */}
     <Herosection/>
