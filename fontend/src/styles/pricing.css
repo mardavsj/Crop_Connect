@@ -1,0 +1,40 @@
+.mainpricing{
+    /* background-image: url(); */
+    object-fit: contain;
+}
+.circle-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: aquamarine;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  @keyframes border-blink {
+    0% { border-color: #80b5ff; }
+    50% { border-color: #4977ff; }
+    80% { border-color: #4977ff; }
+    100% { border-color: #c9d7ff; }
+}
+@keyframes identifier {
+    0% {  box-shadow:  0px 0px 10px 1px #4977ff; }
+    50% { box-shadow:  0px 0px 10px 1px #5f6cff; }  
+    100% { box-shadow:  0px 0px 10px 1px #0033ff; }  
+}
+
+
+.animate-border-blink {
+    animation: border-blink 5s infinite;
+   
+}
+  
+.animate-border:hover{
+    box-shadow:  0px 0px 25px 5px #5f6cff;
+    transition-duration: 1s;
+}
