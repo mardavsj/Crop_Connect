@@ -9,14 +9,14 @@ const PricingComponent = () => {
   const plans = [
     {
       title: 'Basic',
-      price: 9.99,
+      price: 50,
       features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5', 'Feature 6'],
       imageSrc: Crop1,
       bgColor: 'animate-border-blink animate-border',
     },
     {
       title: 'Pro',
-      price: 19.99,
+      price: 150,
       features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5', 'Feature 6'],
       imageSrc: Crop2,
       bgColor: 'animate-border-blink animate-border animate-plexa',
